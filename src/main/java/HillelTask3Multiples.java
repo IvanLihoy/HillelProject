@@ -1,8 +1,8 @@
 
 
-    public class Multiples {
-        public static void main(String[] args) {
-            System.out.println(returnSumOfMultiples(25));
+public class HillelTask3Multiples {
+    public static void main(String[] args) {
+            System.out.println(returnSumOfMultiples(15));
         }
 
         private static long returnSumOfMultiples(long N){
