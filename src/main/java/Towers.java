@@ -5,26 +5,30 @@ public class Towers {
         stairCase();
     }
 
-    public static void stairCase() {
+    private static void stairCase() {
         Scanner in = new Scanner(System.in);
         int height = in.nextInt();
+
         for (int i = 1; i <= height; i++) {
+
 
             for (int j = 0; j <= height; j++) {
 
-                if (height - i - 1 < j) {
+                if (height - i - 1 < j || j<=i) {
                     System.out.print("#");
-                } else {
+                }
+                else {
                     System.out.print(" ");
                 }
 
-                if (j <= i) {
-                    System.out.print("#");
-                } else {
-                    System.out.print(" ");
-                }
+//                if (j <= i) {
+//                    System.out.print("#");
+//                } else {
+//                    System.out.print(" ");
+//                }
             }
             System.out.println();
         }
+
     }
 }
