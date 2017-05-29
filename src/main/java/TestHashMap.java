@@ -12,6 +12,8 @@ public class TestHashMap {
     }
 
     private static void readTxtFile() throws IOException {
+        //        String regex = "[^']";
+//        String insensitiveCase = "(?i)";
         try (BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\777\\IdeaProjects\\HillelProject\\src\\main\\java\\text.txt"))) {
             for (String line; (line = br.readLine()) != null; ) {
                 HashMap<String, Integer> map = new HashMap<>();
