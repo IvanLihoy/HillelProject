@@ -6,29 +6,17 @@ public class Towers {
     }
 
     private static void stairCase() {
-        Scanner in = new Scanner(System.in);
-        int height = in.nextInt();
+        Scanner kb=new Scanner(System.in);
+        int size=kb.nextInt();
 
-        for (int i = 1; i <= height; i++) {
-
-
-            for (int j = 0; j <= height; j++) {
-
-                if (height - i - 1 < j || j<=i) {
+        for(int i=1;i<=size;i++){
+            for(int j=0;j<=size;j++){
+                if(size-i-1<j || j <=i)
                     System.out.print("#");
-                }
-                else {
+                else
                     System.out.print(" ");
-                }
-
-//                if (j <= i) {
-//                    System.out.print("#");
-//                } else {
-//                    System.out.print(" ");
-//                }
             }
             System.out.println();
         }
-
     }
 }
