@@ -10,8 +10,8 @@ public class ValidateEmail {
     }
 
     private static boolean isValidEmailAddress(String email) {
-        String regex = "^[a-zA-Z0-9_!#$%&’*+/=?`{|}~^.-]+@[a-zA-Z0-9.-]+$";
-        Pattern p = java.util.regex.Pattern.compile(regex);
+        String regex = "^[a-zA-Z0-9_!#$%&'*+/=?`{|}~^-]+(?:\\.[a-zA-Z0-9_!#$%&'*+/=?`{|}~^-]+)*@[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)*$";
+        Pattern p = Pattern.compile(regex);
         Matcher m = p.matcher(email);
         return m.matches();
     }
