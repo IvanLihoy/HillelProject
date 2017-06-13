@@ -1,0 +1,16 @@
+Jun 8 12:51:52 skyfence sf_gateway[12923] [12948]:
+MgmtInterface INFO[MgmtIntfNetworkEvent.cpp:161]
+Activity: [Event Info: [EventType: Full] [Login
+Username: user1@skyromi.onmicrosoft.com (repository: user1@skyromi.onmicrosoft.com)]
+[Data Object: Files] [Labels: ] [User Action: download] [User Action Status: unknown]
+[User Action Status Reason: ] [Time: Thu, 08 Jun 2017 12:51:51 GMT] [Service type: Box]
+[File Size: 142282] [IsManagedEndpoint: false] [Asset Id: 1] [Event Id: 42603277535335]
+[Session Id: 3834466276] [Gateway Action Status: monitor] [Client IP: 192.168.3.216]
+[Server IP: 107.152.26.200] [Client Location: 03 0/0 unknown] [Server Location: US 37.3622/-122.14]
+[Browser Id: 2R5X2kHSBC57ccb978] [Device Id: c48eec5fe0ddb37a8584cff2fe34acbbc2651fdf0906ed1029c8e4e696193f7c]
+[OS: Windows] [OS version: 10] [device type: PC] [device version: ] [Client Type: desktop] [Customer Id: 1]
+[DataTypes: ] [icapConnectors: ] [TOR Networks: ] [Anonymous Proxies: ] [Malicious IPs: ] [IP Chain: 192.168.3.216]
+[Mapping Ids: Box-1,Box-2,Box-37] [Is DLP excceeds: False] [FileTypes: <image/png> ] [Useragent: Mozilla/5.0
+(Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko]
+[source: proxy]
+[URI: https://dl.boxcloud.com/d/1/pNJdD3z6IMZkkxQgnYhHFBKEWR4HRezQUtOOPSA02y1WW5TmM7sqIbu0lN2b2G-0NzeNf_EM5sysXTFhoqJYk5oVWtS-_6yAugPcwJAQn9FSGwYUMnaZ4bID42_cA_h1QZ0_cxNUB1OOs4yuHdRG7zTQdtTwTVqtdOyATMLnPX4VMGZgNiepr4uoESHWidN1IKYj4Hg5Xwju8CX5lfrp6NHi6onLVP5VWiV7VRm2W545yG02CwCMUWlERaGbKdNo8yCyHgrPlXQa19z9gEcQ8jNfctPpAnDIGvH0_mrqDXU2PNwZb0w8otG4edxgZ88DtyVl_2UMjaomjfJzdH2HCZp9HGGzKPm-y83aV4Pfy9HduzLq3gjzqTrFNCOHxLZV26xYsg-VPX42wjdbM9DOwtXWpxzJnIl-nWEInOq2angoKejdrMKONMztUq9etPmGG10-EvXNSVuVkVCzKLKcH3gc6nir8C2vWnVUOfry-_jSsZVhKEpJgEALKx1aStITY-ZxyRT7hYVUxn5n62BGUyp-A_BDy1mpkTgcy-i-KB7p6MdJXgH8s2cxpeCmBmJRD_NS7gWsDUUpmzHwrrpOjIzkh1Ia9C21xB4qLo2qSS1E10eiV4zlvGotTBsHcfd3xQ1IdeurRJRhyUVI2gh-ngVnjL7yCJMtw6XImGyHnteRWS8E7_7dB18lyFvGSuHUl-lgGiM81Cfz8Cg_i7gWuGwIZ22yv8-6zBKLGvXNxRMMCuFagsDo4OKmkIB9JnsCNIneLGU_I2Q95FonU
