@@ -5,12 +5,12 @@ import java.util.regex.Pattern;
 
 
 public class ParseLogFile {
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) {
         try{
             String filePath = "C:\\Users\\Ivan\\IdeaProjects\\HillelProject\\src\\main\\java\\file.txt";
             parseFile(filePath);
         }
-        catch (FileNotFoundException e){
+        catch (IOException e){
             e.printStackTrace();
         }
     }
