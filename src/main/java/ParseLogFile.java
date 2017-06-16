@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 public class ParseLogFile {
     public static void main(String[] args) {
         try{
-            String filePath = "C:\\Users\\Ivan\\IdeaProjects\\HillelProject\\src\\main\\java\\file.txt";
+            String filePath = "/home/hillel/IdeaProjects/HillelProject/src/main/java/file.txt";
             parseFile(filePath);
         }
         catch (IOException e){
@@ -19,7 +19,7 @@ public class ParseLogFile {
         String line;
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
             while ((line = br.readLine()) != null) {
-                String regex = "(?:^(.*?)Activity:)|((?:\\[(?:Login Username:|Data Object:|Records:|Records:|User Action Status:|Labels:|Service type:|Mapping Ids:|URI:)(.*?)]))";
+                String regex = "(?:^(.*?)Activity:)|((?:\\[(?:Login Username:|Data Object:|Records:|User Action Status:|Labels:|Service type:|Mapping Ids:|URI:)(.*?)]))";
                 Pattern p = Pattern.compile(regex);
                 Matcher m = p.matcher(line);
                 while (m.find())
